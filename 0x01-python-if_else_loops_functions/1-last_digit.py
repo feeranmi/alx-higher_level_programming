@@ -3,7 +3,7 @@ import random
 number = random.randint(-10000, 10000)
 
 if number < 0:
-    lg = ((-1 * number) % 10)
+    lg = -1 * ((-1 * number) % 10)
 else:
     lg = number % 10
 
