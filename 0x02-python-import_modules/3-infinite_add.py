@@ -3,10 +3,10 @@ import sys
 
 
 def main():
-    add = 0
+    sum = 0
     for i in range(1, len(sys.argv)):
-        add += int(sys.argv[i])
-    print("{}".format(add))
+        sum += int(sys.argv[i])
+    print("{}".format(sum))
 
 
 if __name__ == "__main__":
